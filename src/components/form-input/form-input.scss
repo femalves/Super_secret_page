@@ -1,0 +1,51 @@
+$primary: rgb(136, 128, 128);
+
+.form-group {
+
+    .form-label {
+        top: 0;
+        display: flex;
+        transition: 0.2s;
+        font-size: 1rem;
+        color: $primary;
+        padding: 3px;
+    }
+
+
+
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus,
+    input:-webkit-autofill:active {
+        transition: background-color 5000s ease-in-out 0s;
+    }
+
+    .form-field {
+
+        -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+        -webkit-text-fill-color: $primary !important;
+        font-family: inherit;
+        width: 100%;
+        border: 0;
+        border-bottom: 2px solid #3A37B6;
+        box-shadow: 0 1px #8988DF;
+        outline: 0;
+        font-size: 1.3rem;
+        color: $primary;
+        padding: 7px 0;
+        background: transparent;
+        transition: border-color 0.2s;
+
+        &::placeholder {
+            color: transparent;
+        }
+
+        &:placeholder-shown~.form-label {
+            font-size: 1.3rem;
+            cursor: text;
+            top: 20px;
+        }
+    }
+
+
+}

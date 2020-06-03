@@ -1,0 +1,62 @@
+$primary: rgb(136, 128, 128);
+$secondary: rgb(34, 34, 34);
+
+.form-container {
+    margin: 50px;
+    padding: 0;
+    text-align: center;
+
+    .title {
+
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: rgb(136, 128, 128);
+    }
+
+    .sign-up {
+
+        height: 70vh;
+        padding: 5%;
+
+        h3 {
+            text-align: center;
+            font-size: 25px;
+            line-height: 50px;
+            color: rgb(136, 128, 128);
+
+        }
+
+        .buttons {
+            margin-top: 85px;
+
+            button {
+                background-color: $secondary;
+                width: 80%;
+                margin: 5px;
+                outline: none;
+                border: 1px solid $primary;
+                padding: 15px 32px;
+                text-align: center;
+                font-size: 1.3rem;
+                color: $primary;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                font-weight: bold;
+                border-radius: 8px;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+
+
+        }
+
+    }
+
+
+
+}
