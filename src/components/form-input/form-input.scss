@@ -11,13 +11,11 @@ $primary: rgb(136, 128, 128);
         padding: 3px;
     }
 
-
-
     input:-webkit-autofill,
     input:-webkit-autofill:hover,
     input:-webkit-autofill:focus,
     input:-webkit-autofill:active {
-        transition: background-color 5000s ease-in-out 0s;
+        transition: background-color 50000s ease-in-out 0s;
     }
 
     .form-field {
@@ -28,7 +26,6 @@ $primary: rgb(136, 128, 128);
         width: 100%;
         border: 0;
         border-bottom: 2px solid #3A37B6;
-        box-shadow: 0 1px #8988DF;
         outline: 0;
         font-size: 1.3rem;
         color: $primary;
@@ -40,11 +37,6 @@ $primary: rgb(136, 128, 128);
             color: transparent;
         }
 
-        &:placeholder-shown~.form-label {
-            font-size: 1.3rem;
-            cursor: text;
-            top: 20px;
-        }
     }
 
 
